@@ -14,7 +14,7 @@ development:
   database: test-postgres_development
   pool: 5
   host: localhost
-  username: dabbu
+  username: postgres
   port: 5432
 
 test:
@@ -23,7 +23,7 @@ test:
   database: test-postgres_test
   pool: 5
   host: localhost
-  username: dabbu
+  username: postgres
   port: 5432
 
 production:
@@ -32,5 +32,5 @@ production:
   database: test-postgres_production
   pool: 5
   host: localhost
-  username: dabbu
+  username: postgres
   port: 5432
