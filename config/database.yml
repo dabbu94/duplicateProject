@@ -11,7 +11,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: test-postgres_development
+  database: duplicateProjectDb-postgres_development
   pool: 5
   host: localhost
   username: postgres
@@ -20,7 +20,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: test-postgres_test
+  database: duplicateProjectDb-postgres_test
   pool: 5
   host: localhost
   username: postgres
@@ -29,7 +29,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: test-postgres_production
+  database: duplicateProjectDb-postgres_production
   pool: 5
   host: localhost
   username: postgres
