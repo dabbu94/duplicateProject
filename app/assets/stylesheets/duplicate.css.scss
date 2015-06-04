@@ -1,3 +1,37 @@
 // Place all the styles related to the duplicate controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+}
+
+.navArea{
+  background-color: #FF4040;
+  
+}
+
+.repos {
+   width: 90%;
+   margin: auto;
+}
+
+.containerMod{
+
+  width: 80%;
+}
+
+.resizeCol {
+  margin-right:auto;
+}
+
+.resizeImg{
+  margin:auto;
+  margin-top: 70px;
+}
+
+.navbar-left{
+  background-color: #E7E7E7
+
+}
